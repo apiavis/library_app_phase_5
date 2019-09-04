@@ -1,0 +1,25 @@
+{
+  "name": "library_phase_five_react_redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd API && npm start",
+    "client": "cd UI && npm start",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechtonicAcademy/library-phase-five-apiavisTechtonic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TechtonicAcademy/library-phase-five-apiavisTechtonic/issues"
+  },
+  "homepage": "https://github.com/TechtonicAcademy/library-phase-five-apiavisTechtonic#readme",
+  "dependencies": {
+    "concurrently": "^4.1.2"
+  }
+}
